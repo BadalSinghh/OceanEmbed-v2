@@ -401,11 +401,14 @@ export default function ReconstructionLabPage() {
 
                   {vizMode === "transect" && (
                     <VerticalTransectPlotly
-                      prediction={
+                      fieldData={
                         fieldType === "groundTruth"
                           ? (result.ground_truth as (number | null)[][][])
+                          : fieldType === "error"
+                          ? (result.error as (number | null)[][][])
                           : (result.prediction as (number | null)[][][])
                       }
+                      fieldMode={fieldType}
                       depths={TARGET_DEPTHS}
                       lats={result.lats}
                       lons={result.lons}
