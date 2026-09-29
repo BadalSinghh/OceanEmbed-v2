@@ -71,6 +71,8 @@ async def predict(req: PredictRequest):
     except Exception as e:
         raise HTTPException(500, f"Failed to load test sample {req.sample_index}: {e}")
 
+    lats, lons, _ = load_coordinates()
+
     model = load_pytorch_model(req.model_id)
     pred_3d = None
     if model is not None:
