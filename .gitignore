@@ -1,0 +1,40 @@
+# =============================================================================
+# OceanEmbed — Root .gitignore
+# =============================================================================
+
+# Dependencies & Build Artefacts
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+node_modules/
+.next/
+
+# Python virtualenvs & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Local Environment Variables
+.env.local
+.env.*.local
+frontend/.env.local
+
+# Large Raw / Training Data (Not needed for web application)
+OceanEmbed_Data/
+checkpoints/*.pth
+!checkpoints/.gitkeep
+
+# Temporary prediction dumps
+outputs/predictions/
+*.nc.tmp
+
+# OS Artefacts
+.DS_Store
+Thumbs.db
+desktop.ini

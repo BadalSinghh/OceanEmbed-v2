@@ -1,0 +1,117 @@
+{
+  "dataset": "ARGO_IN_SITU_VALIDATION",
+  "model": "BASELINE_1_CLIMATOLOGY",
+  "year": 2020,
+  "total_profiles_evaluated": 4281,
+  "total_observations_matched": 62255,
+  "overall_RMSE": 1.2102,
+  "overall_MAE": 0.688,
+  "overall_Bias": 0.0308,
+  "depth_wise_metrics": {
+    "0": {
+      "RMSE": 1.5241,
+      "MAE": 0.5041,
+      "Bias": -0.0864,
+      "Correlation": 0.6624,
+      "num_profiles": 4102
+    },
+    "5": {
+      "RMSE": 0.9595,
+      "MAE": 0.4663,
+      "Bias": -0.1738,
+      "Correlation": 0.8248,
+      "num_profiles": 3739
+    },
+    "10": {
+      "RMSE": 1.271,
+      "MAE": 0.474,
+      "Bias": -0.1087,
+      "Correlation": 0.7252,
+      "num_profiles": 4101
+    },
+    "20": {
+      "RMSE": 1.0203,
+      "MAE": 0.4846,
+      "Bias": -0.0367,
+      "Correlation": 0.7966,
+      "num_profiles": 4115
+    },
+    "30": {
+      "RMSE": 0.9433,
+      "MAE": 0.5665,
+      "Bias": 0.0137,
+      "Correlation": 0.8225,
+      "num_profiles": 4212
+    },
+    "50": {
+      "RMSE": 1.2412,
+      "MAE": 0.8384,
+      "Bias": 0.1019,
+      "Correlation": 0.7708,
+      "num_profiles": 4243
+    },
+    "75": {
+      "RMSE": 1.6779,
+      "MAE": 1.2106,
+      "Bias": 0.3215,
+      "Correlation": 0.6932,
+      "num_profiles": 4246
+    },
+    "100": {
+      "RMSE": 1.8743,
+      "MAE": 1.383,
+      "Bias": 0.4659,
+      "Correlation": 0.6544,
+      "num_profiles": 4246
+    },
+    "125": {
+      "RMSE": 1.7736,
+      "MAE": 1.3291,
+      "Bias": 0.3065,
+      "Correlation": 0.6582,
+      "num_profiles": 4246
+    },
+    "150": {
+      "RMSE": 1.5324,
+      "MAE": 1.1353,
+      "Bias": 0.1052,
+      "Correlation": 0.688,
+      "num_profiles": 4243
+    },
+    "200": {
+      "RMSE": 0.9886,
+      "MAE": 0.7172,
+      "Bias": -0.0059,
+      "Correlation": 0.8014,
+      "num_profiles": 4232
+    },
+    "300": {
+      "RMSE": 0.513,
+      "MAE": 0.38,
+      "Bias": -0.0849,
+      "Correlation": 0.9289,
+      "num_profiles": 4213
+    },
+    "500": {
+      "RMSE": 0.3712,
+      "MAE": 0.2472,
+      "Bias": -0.103,
+      "Correlation": 0.9633,
+      "num_profiles": 4162
+    },
+    "700": {
+      "RMSE": 0.3638,
+      "MAE": 0.2556,
+      "Bias": -0.1701,
+      "Correlation": 0.9716,
+      "num_profiles": 4149
+    },
+    "1000": {
+      "RMSE": 0.3348,
+      "MAE": 0.2342,
+      "Bias": -0.1364,
+      "Correlation": 0.96,
+      "num_profiles": 4006
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "model": "BASELINE_1_CLIMATOLOGY",
+  "evaluation_period": "2020-01-01 to 2020-12-31 (Validation)",
+  "reference_period": "2015-01-01 to 2019-12-31 (Train)",
+  "overall_RMSE": 1.0544,
+  "overall_MAE": 0.6856,
+  "overall_Bias": -0.1667,
+  "overall_Correlation": 0.9906,
+  "surface_RMSE_0_30m": 0.7271,
+  "thermocline_RMSE_50_200m": 1.4719,
+  "deep_RMSE_300_1000m": 0.4313,
+  "total_evaluated_points": 57111738,
+  "depth_wise_metrics": {
+    "0": {
+      "RMSE": 0.6791,
+      "MAE": 0.4974,
+      "Bias": -0.1682,
+      "Correlation": 0.9358,
+      "R2": 0.8671,
+      "num_samples": 4405908
+    },
+    "5": {
+      "RMSE": 0.6753,
+      "MAE": 0.4898,
+      "Bias": -0.165,
+      "Correlation": 0.9356,
+      "R2": 0.8669,
+      "num_samples": 4405908
+    },
+    "10": {
+      "RMSE": 0.6745,
+      "MAE": 0.4858,
+      "Bias": -0.1592,
+      "Correlation": 0.9299,
+      "R2": 0.8566,
+      "num_samples": 4280370
+    },
+    "20": {
+      "RMSE": 0.7457,
+      "MAE": 0.5148,
+      "Bias": -0.1522,
+      "Correlation": 0.9089,
+      "R2": 0.8185,
+      "num_samples": 4178622
+    },
+    "30": {
+      "RMSE": 0.8607,
+      "MAE": 0.5817,
+      "Bias": -0.1614,
+      "Correlation": 0.8768,
+      "R2": 0.7573,
+      "num_samples": 4058574
+    },
+    "50": {
+      "RMSE": 1.1535,
+      "MAE": 0.8077,
+      "Bias": -0.1488,
+      "Correlation": 0.8135,
+      "R2": 0.6466,
+      "num_samples": 3884724
+    },
+    "75": {
+      "RMSE": 1.5742,
+      "MAE": 1.1565,
+      "Bias": -0.1461,
+      "Correlation": 0.7217,
+      "R2": 0.4991,
+      "num_samples": 3729540
+    },
+    "100": {
+      "RMSE": 1.8083,
+      "MAE": 1.3537,
+      "Bias": -0.2676,
+      "Correlation": 0.6728,
+      "R2": 0.4197,
+      "num_samples": 3634014
+    },
+    "125": {
+      "RMSE": 1.7663,
+      "MAE": 1.3367,
+      "Bias": -0.3433,
+      "Correlation": 0.6846,
+      "R2": 0.4257,
+      "num_samples": 3613884
+    },
+    "150": {
+      "RMSE": 1.5327,
+      "MAE": 1.1445,
+      "Bias": -0.2831,
+      "Correlation": 0.739,
+      "R2": 0.514,
+      "num_samples": 3591558
+    },
+    "200": {
+      "RMSE": 0.9964,
+      "MAE": 0.7219,
+      "Bias": -0.1532,
+      "Correlation": 0.8535,
+      "R2": 0.7169,
+      "num_samples": 3558618
+    },
+    "300": {
+      "RMSE": 0.548,
+      "MAE": 0.4058,
+      "Bias": -0.0521,
+      "Correlation": 0.9365,
+      "R2": 0.8746,
+      "num_samples": 3528240
+    },
+    "500": {
+      "RMSE": 0.3596,
+      "MAE": 0.2611,
+      "Bias": -0.0866,
+      "Correlation": 0.9596,
+      "R2": 0.9145,
+      "num_samples": 3469680
+    },
+    "700": {
+      "RMSE": 0.4024,
+      "MAE": 0.2933,
+      "Bias": -0.0985,
+      "Correlation": 0.9474,
+      "R2": 0.889,
+      "num_samples": 3426858
+    },
+    "1000": {
+      "RMSE": 0.4153,
+      "MAE": 0.297,
+      "Bias": -0.1079,
+      "Correlation": 0.9234,
+      "R2": 0.8396,
+      "num_samples": 3345240
+    }
+  }
+}

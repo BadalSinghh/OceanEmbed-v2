@@ -1,0 +1,74 @@
+{
+  "SST": {
+    "mean": 28.2975,
+    "std": 1.8832,
+    "min": -0.0,
+    "max": 36.5925,
+    "sample_count": 21758616,
+    "train_period": "2015-01-01 to 2019-12-31",
+    "units": "\u00b0C"
+  },
+  "SSS": {
+    "mean": 34.691,
+    "std": 2.0656,
+    "min": 25.4093,
+    "max": 40.0328,
+    "sample_count": 21795381,
+    "train_period": "2015-01-01 to 2019-12-31",
+    "units": "PSU"
+  },
+  "SLA": {
+    "mean": 0.0814,
+    "std": 0.0963,
+    "min": -0.4599,
+    "max": 0.6942,
+    "sample_count": 22742830,
+    "train_period": "2015-01-01 to 2019-12-31",
+    "units": "m"
+  },
+  "U_current": {
+    "mean": 0.0114,
+    "std": 0.225,
+    "min": -2.0015,
+    "max": 2.161,
+    "sample_count": 21148384,
+    "train_period": "2015-01-01 to 2019-12-31",
+    "units": "m/s"
+  },
+  "V_current": {
+    "mean": 0.0109,
+    "std": 0.2092,
+    "min": -2.114,
+    "max": 2.0904,
+    "sample_count": 21148384,
+    "train_period": "2015-01-01 to 2019-12-31",
+    "units": "m/s"
+  },
+  "U_wind": {
+    "mean": 0.6516,
+    "std": 3.5398,
+    "min": -24.3058,
+    "max": 23.2742,
+    "sample_count": 44446666,
+    "train_period": "2015-01-01 to 2019-12-31",
+    "units": "m/s"
+  },
+  "V_wind": {
+    "mean": 0.2206,
+    "std": 3.3061,
+    "min": -21.3731,
+    "max": 25.5488,
+    "sample_count": 44446666,
+    "train_period": "2015-01-01 to 2019-12-31",
+    "units": "m/s"
+  },
+  "subsurface_temp": {
+    "mean": 21.4635,
+    "std": 7.5649,
+    "min": 4.0633,
+    "max": 38.2999,
+    "sample_count": 284934518,
+    "train_period": "2015-01-01 to 2019-12-31",
+    "units": "\u00b0C"
+  }
+}
