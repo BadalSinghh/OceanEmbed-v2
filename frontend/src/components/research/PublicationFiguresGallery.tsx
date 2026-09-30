@@ -4,6 +4,22 @@ import React, { useState } from "react";
 
 const PUBLICATION_FIGURES = [
   {
+    id: "master_dashboard",
+    title: "Master Benchmark Dashboard (6 Panels)",
+    subtitle: "Complete multi-dimensional evaluation summary across all models, depths, and in-situ Argo observations",
+    src: "/figures/sih_ps66_master_evaluation_dashboard.png",
+    caption:
+      "Comprehensive 6-panel benchmark summary for SIH PS66: (A) Sealed 2021 GLORYS vs In-Situ Argo RMSE; (B) Vertical error trajectories from surface to 1000m depth; (C) Physical Argo float correlation scatter (R = 0.9928); (D) Parameter efficiency Pareto frontier; (E) Thermocline 100m error probability density; (F) Vertical oceanographic regime comparison.",
+  },
+  {
+    id: "spatial_showcase",
+    title: "Surface-to-Subsurface 3D Showcase",
+    subtitle: "Multi-satellite input stack, 100m thermocline reconstruction, and vertical transect cross-section",
+    src: "/figures/sih_ps66_spatial_reconstruction_showcase.png",
+    caption:
+      "Physical reconstruction showcase across the North Indian Ocean basin: Panels 1-2 show satellite Sea Surface Temperature (SST) and Sea Level Anomaly (SLA); Panel 3 displays the 88°E vertical meridional transect; Panels 4-6 compare Model B predicted 100m thermal field against GLORYS reference and the resulting cool-warm mesoscale eddy residual map.",
+  },
+  {
     id: "depth",
     title: "Vertical Depth RMSE Comparison",
     subtitle: "Error trajectories across 15 standard depths (0 to 1000m) for all 6 models",
@@ -33,12 +49,12 @@ const PUBLICATION_FIGURES = [
     subtitle: "Model parameter efficiency vs physical in-situ accuracy",
     src: "/figures/parameter_accuracy_pareto.png",
     caption:
-      "Pareto frontier evaluating architectural parameter efficiency against reconstruction error. Model B establishes the state-of-the-art accuracy frontier at 6.43M trainable parameters.",
+      "Pareto frontier evaluating architectural parameter efficiency against reconstruction error. Model B establishes the state-of-the-art accuracy frontier at 18.84M trainable parameters.",
   },
 ];
 
 export default function PublicationFiguresGallery() {
-  const [activeTab, setActiveTab] = useState<string>("depth");
+  const [activeTab, setActiveTab] = useState<string>("master_dashboard");
   const activeFig = PUBLICATION_FIGURES.find((f) => f.id === activeTab) || PUBLICATION_FIGURES[0];
 
   return (
