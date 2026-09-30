@@ -20,6 +20,14 @@ const PUBLICATION_FIGURES = [
       "Physical reconstruction showcase across the North Indian Ocean basin: Panels 1-2 show satellite Sea Surface Temperature (SST) and Sea Level Anomaly (SLA); Panel 3 displays the 88°E vertical meridional transect; Panels 4-6 compare Model B predicted 100m thermal field against GLORYS reference and the resulting cool-warm mesoscale eddy residual map.",
   },
   {
+    id: "model_ab_scatter",
+    title: "Pure Model A vs B Scatter (Opposite Colors)",
+    subtitle: "High-contrast scatter comparison of the two winning models vs in-situ Argo floats",
+    src: "/figures/model_a_vs_model_b_scatter.png",
+    caption:
+      "High-contrast dedicated scatter plot comparing the two top-performing architectures: Model B (Dual-Branch FNO + ViT, Cool Ocean Blue, R = 0.9928) vs Model A (Dual-Branch FNO + U-Net, Warm Coral Orange, R = 0.9918) against 55,136 independent physical Argo profiling float measurements with best-fit regression lines and the 1:1 ideal agreement reference line.",
+  },
+  {
     id: "combined_ab_correlation",
     title: "Combined Model A & B Correlation",
     subtitle: "Direct side-by-side predicted temperature vs in-situ Argo float measurement",
