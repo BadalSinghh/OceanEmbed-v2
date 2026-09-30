@@ -12,6 +12,14 @@ const PUBLICATION_FIGURES = [
       "Comprehensive 6-panel benchmark summary for SIH PS66: (A) Sealed 2021 GLORYS vs In-Situ Argo RMSE; (B) Vertical error trajectories from surface to 1000m depth; (C) Physical Argo float correlation scatter (R = 0.9928); (D) Parameter efficiency Pareto frontier; (E) Thermocline 100m error probability density; (F) Vertical oceanographic regime comparison.",
   },
   {
+    id: "bias_dashboard",
+    title: "Thermal Bias & Systematic Calibration",
+    subtitle: "Vertical depth bias profile, 2D spatial drift map, and in-situ Argo bias distribution",
+    src: "/figures/model_bias_analysis_dashboard.png",
+    caption:
+      "Comprehensive systematic thermal bias analysis: (A) Vertical depth vs mean bias showing Model B maintains near-zero bias (-0.018°C) within the ±0.05°C precision corridor; (B) Spatial 2D column-averaged bias map showing balanced zero-drift across the Bay of Bengal and Arabian Sea; (C) Gaussian-symmetric in-situ Argo float bias distribution (N = 55,136); (D) Bias comparison by vertical ocean stratification regime.",
+  },
+  {
     id: "thermal_100m",
     title: "Actual 100m Thermal Image (Real vs Pred)",
     subtitle: "Real GLORYS Ground Truth vs Model B Predicted State vs Residual Error at 100m depth",
