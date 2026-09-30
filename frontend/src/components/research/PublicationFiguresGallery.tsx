@@ -12,6 +12,22 @@ const PUBLICATION_FIGURES = [
       "Comprehensive 6-panel benchmark summary for SIH PS66: (A) Sealed 2021 GLORYS vs In-Situ Argo RMSE; (B) Vertical error trajectories from surface to 1000m depth; (C) Physical Argo float correlation scatter (R = 0.9928); (D) Parameter efficiency Pareto frontier; (E) Thermocline 100m error probability density; (F) Vertical oceanographic regime comparison.",
   },
   {
+    id: "thermal_100m",
+    title: "Actual 100m Thermal Image (Real vs Pred)",
+    subtitle: "Real GLORYS Ground Truth vs Model B Predicted State vs Residual Error at 100m depth",
+    src: "/figures/actual_thermal_image_100m_thermocline.png",
+    caption:
+      "Actual high-resolution 2D thermal field image comparison over the North Indian Ocean at 100m depth: (Left) Real Ocean State from GLORYS12 Ground Truth; (Center) Model B Predicted Ocean State; (Right) Residual Thermal Difference (ΔT) showing physical mesoscale eddy dipoles and frontal gradients.",
+  },
+  {
+    id: "multi_depth_matrix",
+    title: "Multi-Depth Thermal Slices (0m to 300m)",
+    subtitle: "Vertical matrix of Real vs Predicted thermal states across 4 oceanographic layers",
+    src: "/figures/multi_depth_thermal_slices_real_vs_pred.png",
+    caption:
+      "Cross-depth actual thermal field comparison: 4 vertical levels (Surface 0m, Upper Thermocline 50m, Core Thermocline 100m, Sub-Thermocline 300m) showing the evolution of ocean temperature stratification from the warm surface mixed layer down into the deep ocean.",
+  },
+  {
     id: "spatial_showcase",
     title: "Surface-to-Subsurface 3D Showcase",
     subtitle: "Multi-satellite input stack, 100m thermocline reconstruction, and vertical transect cross-section",
